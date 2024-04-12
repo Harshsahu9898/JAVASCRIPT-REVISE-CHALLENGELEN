@@ -26,5 +26,15 @@ function addmultiples(){
     }
     return ans
 }
-let result = addmultiples(1,2,3,4,5);
+// let result = addmultiples(1,2,3,4,5);
+// console.log(result);
+
+function addmultiplenumbersv2(...numbers){//spread operator is a numbers
+    let ans = 0;
+    for(let i=0;i<numbers.length;i++){
+        ans += numbers[i]
+    }
+    return ans;
+}
+let result=addmultiplenumbersv2(1,2,3,4,5);
 console.log(result);
