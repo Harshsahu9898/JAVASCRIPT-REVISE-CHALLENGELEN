@@ -16,7 +16,7 @@ console.log(window);//window object contains what to be done with the browser an
     document.title = "harshu";
 console.log(document);
 console.log(document.body);//display the body of dom
-// document.write("this is hacked by harsh");//we can do debugging or can able to write anything in the screen
+document.write("this is hacked by harsh");//we can do debugging or can able to write anything in the screen
 // DOM CAN BE MANIPULATED BY JAVASCRIPT
 const name = prompt("whats your name?");
 document.write("hello"+name);
