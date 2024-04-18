@@ -15,14 +15,17 @@
 </head>
 <body>
     <nav class = "block"></nav>
-    <p class ="paragraph">Welcome to my Website</p>
+    <p class ="paragraph"onclick="alert('hey')">Welcome to my Website</p>
     <nav>
         <div class="block">
-            <h4>Hey there my name is <span id ="username">Harsh sahu</span></h4>
+            <h4 id="Name-Block">Hey there my name is <span id ="username">Harsh sahu</span></h4>
             <p class = "paragraph">Here is a code for you</p>
             <pre><code>console.log('Hey There')</code></pre>
         </div>
-        <script src="GetElementsbyclassname.js"></script>
+<!-- this attribute can be used anywhere in any tags -->
+        <!-- <button onclick="handleButtonClick()">Click Me</button>it is a type of event listener where we will give command to click and get something in return in javascript code -->
+        <button id = "clickButton">Click Me</button>
+        <script src="EventListeners.js"></script>
     </body>
 
 </html>
