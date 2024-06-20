@@ -1,4 +1,4 @@
-// synchtonous and asynchronous task
+// synchronous and asynchronous task
 // here all the things are in sync means first a is executed then b is executed then result will give us the answer
 let a = 10;
 let b = 30;
