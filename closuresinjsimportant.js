@@ -34,7 +34,7 @@
 // toadd5(12);//this function will add 5 to whatever number we want to get addition of
 // addto10(23);
 
-// CREATING A TEXT SIZER
+// // CREATING A TEXT SIZER
 
 // const myname = document.getElementById("my-name");
 // const btn = document.getElementById("clickButton");
@@ -65,4 +65,4 @@ function makecounter(){
 const counter1 = makecounter();
 
 counter1();
-counter1();
+counter1();//it will count the elements
